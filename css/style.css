@@ -1,0 +1,44 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 20vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    color: #fff;
+}
+
+.banner-1{
+    flex-grow: 1;
+    background-color: #f31313;
+
+
+}
+
+.conteudo{
+    flex-grow: 5;
+    background-color: #4ef30c;
+}
+
+
+.banner-2{
+    flex-grow: 1;
+    background-color: #f4d6fa;
+
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 82, 221);
+    color: #fff;
+    height: 20vh;
+}
