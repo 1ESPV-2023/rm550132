@@ -1,44 +1,43 @@
+
 .cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000;
     color: #fff;
-    height: 20vh;
+    height: 30vh;
+
+    background-image: url("../img/banner-1440x300-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    height: 60vh;
+    height: auto;
     width: 100%;
     color: #fff;
 }
 
 .banner-1{
     flex-grow: 1;
-    background-color: #f31313;
-
-
+    background-color: #4b0606;
 }
-
 .conteudo{
     flex-grow: 5;
-    background-color: #4ef30c;
+    background-color: #552329;
 }
-
-
 .banner-2{
     flex-grow: 1;
-    background-color: #f4d6fa;
-
+    background-color: #14033b;
 }
 
 .rodape{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(31, 82, 221);
+    background-color: #32589f;
     color: #fff;
     height: 20vh;
 }
